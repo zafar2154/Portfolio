@@ -99,7 +99,7 @@ img {
     border-radius: 30px;
     border-color: #100d0d;
   }
-  .kartu {
+.kartu {
     padding: 3rem 2rem;
     text-align: center;
     background: rgb(46, 42, 50);
@@ -181,6 +181,8 @@ a{
   
   .footer-icons a:hover svg {
     fill: #1fc459;
+    transform: translateY(-5px);
+    transition: 500ms;
   }
 
   /*animation*/
