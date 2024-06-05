@@ -3,7 +3,7 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <!--AOS CSS-->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -239,9 +239,13 @@
     <!--contact-->
     <section id="contact" class="contact">
       <div class="container">
-        <h2 class="text-center mb-5">Contact Me</h2>
+      <div class="row mb-4">
+        <div class="col text-center">
+          <h2 class="text-center mb-5">Contact Me</h2>
+        </div>
+      </div>
         <div class="row justify-content-around">
-          <div class="col-4">
+          <div class="col-md-4 mb-5">
             <form onsubmit="sendEmail(); reset(); return false">
               <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
@@ -259,7 +263,7 @@
               <button type="submit" class="btn btn-primary">Send Message</button>
             </form>
           </div>
-          <div class="col-4">
+          <div class="col-md-4">
             <div class="contact-item">
               <div class="contact-item-icon">
                 <i class="material-icons">place</i>
@@ -291,7 +295,6 @@
             </div>
           </div>
         </div>
-      </div>
     </section>
     <footer>
       <div class="footer-icons">
