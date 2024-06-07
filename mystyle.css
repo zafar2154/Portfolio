@@ -167,9 +167,6 @@ a{
     letter-spacing: normal;
     text-transform: uppercase;
     color:antiquewhite;
-    position: relative;
-    padding-left: 220px;
-    width: fit-content;
     font-weight: 400;
     font-size: 1.3rem;
   } 
@@ -212,5 +209,5 @@ a{
     }
   }
   .fade_in {
-    animation: fadein 2s ease;
+    animation: fadein 3s ease;
   }
