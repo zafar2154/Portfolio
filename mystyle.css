@@ -82,6 +82,7 @@ img {
   font-size: 3rem;
   font-weight: 700;
   margin: 0.5rem 0 1rem;
+  max-width: 100%;
 }
 .pra {
   letter-spacing: normal;
@@ -89,6 +90,7 @@ img {
   color:antiquewhite;
   font-weight: 400;
   font-size: 1.3rem;
+  max-width: 100%;
 } 
 .a {
   color: aqua;
